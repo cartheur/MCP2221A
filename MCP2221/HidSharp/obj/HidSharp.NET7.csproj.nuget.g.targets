@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)smdn.msbuild.defineconstants.netsdkapi\1.1.0\build\Smdn.MSBuild.DefineConstants.NETSdkApi.targets" Condition="Exists('$(NuGetPackageRoot)smdn.msbuild.defineconstants.netsdkapi\1.1.0\build\Smdn.MSBuild.DefineConstants.NETSdkApi.targets')" />
-  </ImportGroup>
-</Project>
