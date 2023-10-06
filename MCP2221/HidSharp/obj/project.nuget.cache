@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ye7wup7UmybVXBGdA72Tm/TJMBjbUZl0MjF0kJT6uL2bA/4yoq+I01XJqJksewuP+D4KFXOh6IaMUZJIzzGJiA==",
+  "success": true,
+  "projectFilePath": "C:\\ame\\aiventure\\aiventure-huggable\\code\\devices\\gpio\\MCP2221\\HidSharp\\HidSharp.NET7.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carth\\.nuget\\packages\\smdn.msbuild.defineconstants.netsdkapi\\1.1.0\\smdn.msbuild.defineconstants.netsdkapi.1.1.0.nupkg.sha512",
+    "C:\\Users\\carth\\.nuget\\packages\\smdn.msbuild.projectassets.common\\1.1.0\\smdn.msbuild.projectassets.common.1.1.0.nupkg.sha512",
+    "C:\\Users\\carth\\.nuget\\packages\\smdn.msbuild.projectassets.library\\1.1.1\\smdn.msbuild.projectassets.library.1.1.1.nupkg.sha512",
+    "C:\\Users\\carth\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.354\\stylecop.analyzers.1.2.0-beta.354.nupkg.sha512",
+    "C:\\Users\\carth\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.354\\stylecop.analyzers.unstable.1.2.0.354.nupkg.sha512"
+  ],
+  "logs": []
+}

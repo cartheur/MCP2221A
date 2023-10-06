@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "HidSharp/1.0.0": {
+        "dependencies": {
+          "Smdn.MSBuild.DefineConstants.NETSdkApi": "1.1.0",
+          "Smdn.MSBuild.ProjectAssets.Common": "1.1.0",
+          "Smdn.MSBuild.ProjectAssets.Library": "1.1.1",
+          "StyleCop.Analyzers": "1.2.0-beta.354"
+        },
+        "runtime": {
+          "HidSharp.dll": {}
+        }
+      },
+      "Smdn.MSBuild.DefineConstants.NETSdkApi/1.1.0": {},
+      "Smdn.MSBuild.ProjectAssets.Common/1.1.0": {},
+      "Smdn.MSBuild.ProjectAssets.Library/1.1.1": {},
+      "StyleCop.Analyzers/1.2.0-beta.354": {
+        "dependencies": {
+          "StyleCop.Analyzers.Unstable": "1.2.0.354"
+        }
+      },
+      "StyleCop.Analyzers.Unstable/1.2.0.354": {}
+    }
+  },
+  "libraries": {
+    "HidSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Smdn.MSBuild.DefineConstants.NETSdkApi/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QGsy8hqc6w8JQ8E1I8ntI65IN2DeZKPL1c5FM/nbEjhv+zE/gW56KsdrhRGd6N/HLUNX/srBtVuYlmc6JPj6Mg==",
+      "path": "smdn.msbuild.defineconstants.netsdkapi/1.1.0",
+      "hashPath": "smdn.msbuild.defineconstants.netsdkapi.1.1.0.nupkg.sha512"
+    },
+    "Smdn.MSBuild.ProjectAssets.Common/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4LRyCaThvaC3tVDC3f9hOnKpFoNO/5KKmmtoCZ5lDaR9ZzQ/2F5b5K3HQDTfPj7XRp+UMLjYtqNXLBqrbcIErw==",
+      "path": "smdn.msbuild.projectassets.common/1.1.0",
+      "hashPath": "smdn.msbuild.projectassets.common.1.1.0.nupkg.sha512"
+    },
+    "Smdn.MSBuild.ProjectAssets.Library/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FHYxT2oas84DliMlSpdZisEUivEddiTGcu1i/a7ceeyW4EpgrEdLBRX+LJM7Cw4QCAZMjv/jfamlhasvK4auWQ==",
+      "path": "smdn.msbuild.projectassets.library/1.1.1",
+      "hashPath": "smdn.msbuild.projectassets.library.1.1.1.nupkg.sha512"
+    },
+    "StyleCop.Analyzers/1.2.0-beta.354": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oDSJNxnEvIzAQTkpkc/FnJP4dQ7TV6fHMsI+2ckU5DOaMiwiEfh1fawMsSqz2bCoNwbTt9lS6MgYvyVKujNJoA==",
+      "path": "stylecop.analyzers/1.2.0-beta.354",
+      "hashPath": "stylecop.analyzers.1.2.0-beta.354.nupkg.sha512"
+    },
+    "StyleCop.Analyzers.Unstable/1.2.0.354": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/3RlM31XbJ02gaWh7dVumWOyMvGHswb/zygGJXd9oEJMRyyYc/HFJlAC5gBPxvi9cB4CMvIyyUTmZz5VLKwTvg==",
+      "path": "stylecop.analyzers.unstable/1.2.0.354",
+      "hashPath": "stylecop.analyzers.unstable.1.2.0.354.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.device.gpio\3.0.0\buildTransitive\net5.0\System.Device.Gpio.targets" Condition="Exists('$(NuGetPackageRoot)system.device.gpio\3.0.0\buildTransitive\net5.0\System.Device.Gpio.targets')" />
+    <Import Project="$(NuGetPackageRoot)smdn.msbuild.defineconstants.netsdkapi\1.1.0\build\Smdn.MSBuild.DefineConstants.NETSdkApi.targets" Condition="Exists('$(NuGetPackageRoot)smdn.msbuild.defineconstants.netsdkapi\1.1.0\build\Smdn.MSBuild.DefineConstants.NETSdkApi.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\7.0.0\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\7.0.0\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets')" />
+  </ImportGroup>
+</Project>
