@@ -14,19 +14,14 @@ SPDX-License-Identifier: MIT
       3. Modify project property directly.
   -->
   <PropertyGroup>
-
     <UsbHidDriver Condition=" '$(SMDN_DEVICES_MCP2221_USBHIDDRIVER)' != '' ">$(SMDN_DEVICES_MCP2221_USBHIDDRIVER)</UsbHidDriver>
     <UsbHidDriver Condition=" '$(UsbHidDriver)' == '' ">HIDSharp</UsbHidDriver> <!-- as default -->
-    <!--
-    <UsbHidDriver Condition=" '$(UsbHidDriver)' == '' ">LibUsbDotNet</UsbHidDriver>
-    -->
   </PropertyGroup>
 
   <PropertyGroup>
     <TargetFrameworks>net7.0</TargetFrameworks>
     <VersionPrefix>1.1.0</VersionPrefix>
     <VersionSuffix></VersionSuffix>
-    <!-- <PackageValidationBaselineVersion>0.9.0</PackageValidationBaselineVersion> -->
     <DefineConstants>$(DefineConstants);USBHIDDRIVER_$(UsbHidDriver.ToUpper())</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
